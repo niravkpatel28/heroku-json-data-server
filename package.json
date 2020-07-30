@@ -1,0 +1,19 @@
+{
+  "name": "json-server-heroku",
+  "version": "1.0.0",
+  "description": "Create a database with json files. This server will be deployed on heroku ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "heroku",
+    "json-data-server"
+  ],
+  "author": "Nirav Patel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "json-server": "^0.16.1"
+  }
+}
