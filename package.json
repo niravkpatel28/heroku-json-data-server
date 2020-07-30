@@ -4,7 +4,9 @@
   "description": "Create a database with json files. This server will be deployed on heroku ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "json-server index.js",
+    "start": "node server.js"
   },
   "keywords": [
     "heroku",
